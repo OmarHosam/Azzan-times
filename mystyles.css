@@ -24,6 +24,23 @@
 	white-space: nowrap;
 }
 
+#hero #hero__links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#hero #hero__links a {
+	margin: 5px;
+	background-color: bisque;
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	padding: 10px;
+}
+
 h1 {
 	font-size: 60px;
 }
@@ -82,4 +99,27 @@ p {
 
 #whatisat a {
 	color: white;
+}
+
+#download #download__links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#download #download__links a {
+	margin: 5px;
+	background-color: gray;
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+	#download h1 {
+		font-size: 35px;
+	}
 }
