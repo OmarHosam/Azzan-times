@@ -27,3 +27,6 @@ git clone https://github.com/OmarHosam/Azzan-times
 cd Azzan-times
 python3 azzan.py
 ```
+
+# Special Thanks
+- [Aladhan API](https://aladhan.com/prayer-times-api)
